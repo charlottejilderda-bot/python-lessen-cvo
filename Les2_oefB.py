@@ -1,3 +1,5 @@
+print('"'*40)
 naam = input("Wat is jouw naam?")
 leeftijd = int(input ("Hoe oud ben je?"))
 print(f"Hallo {naam}! Volgende jaar ben je {leeftijd+1} jaar oud.")
+print('"'*40)
