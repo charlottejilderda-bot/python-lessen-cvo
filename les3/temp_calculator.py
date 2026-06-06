@@ -1,4 +1,4 @@
-# temp_calculator.py - gemaakt door Charlotte 
+#temp_calculator.py - gemaakt door Charlotte 
 
 print("=" * 40)
 print(" Temperatuuromrekening F -> C")
