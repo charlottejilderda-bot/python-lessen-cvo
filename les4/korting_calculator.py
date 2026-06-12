@@ -5,11 +5,11 @@ print("Korting Checker - PrimabouwBV")
 print("=" * 45)
 totaalbedrag = float(input("Voer het totale orderbedrag in (€):"))
 
-if totaalbedrag >= 500: 
+if totaalbedrag >= 2500: 
     korting_pct = 15
 elif totaalbedrag >= 1000:
     korting_pct = 10
-elif totaalbedrag >= 2500:
+elif totaalbedrag >= 500:
     korting_pct = 5
 else:
     korting_pct = 0
