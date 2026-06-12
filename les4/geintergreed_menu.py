@@ -11,14 +11,22 @@ while True:
     print("4)Applicatie afsluiten")
     print("=" * 45)
 
-    Keuze = input("Maak uw keuze(1-4):")
+    keuze = input("Maak uw keuze(1-4):")
     if keuze == "1":
         print("\n---[OPSTARTEN BTW_CALCULATOR]---")
-        #Schrijf hier de BTW-berekening (invoer bedrag, invoer tarief, berekening en f-string print)
+
+        import btw_calculator.py 
+              
     elif keuze == "2":
         print("\n---[OPSTARTEN KORTINGS_CALCULATOR]---")
+
+        import korting_calculator.py    
+
     elif keuze == "3":
         print("\n---[OPSTARTEN WERF-VEILIGHEID]---")
+
+        import werf_veiligheid.py   
+
     elif keuze == "4":
         print("\nBedankt voor het gebruiken van het PrimaBouw systeem. Tot ziens!")
         break #Dit breekt de 'while True' lus en stopt het programma 
