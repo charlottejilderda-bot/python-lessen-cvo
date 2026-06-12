@@ -22,3 +22,15 @@ else:
         print("WAARSCHUWING: Risico op gladheid. Werken toegestaan met antislip-schoesel.")
     else: 
         print("VEILIG: Normale werkomstandigheden op de stelling.")
+
+
+print("\n---EXTRA CONTROLE TORENKRAAN---")
+kraan_hoogte = float(input("Hoe hoog staat de kraanmast (in meters)?"))
+
+#Combineren met 'and' en 'or' 
+if wind_kmh > 45 and kraan_hoogte > 20: 
+    print("KRAAN STATUS: Bediening VERBODEN wegens hefboomwind op grote hoogte.")
+elif wind_kmh > 55 or kraan_hoogte > 40: 
+    print("KRAAN STATUS: Alleen bediening door gecertificeerde masters. Wees uiterst voorzichtig.")
+else:
+    print("KRAAN STATUS: WERking binnen de normale veiligheidsmarges.")
